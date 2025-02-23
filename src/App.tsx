@@ -1,6 +1,9 @@
 import AdminInfo from "./components/AdminInfo";
 import Button from "./components/Button";
+import Counter from "./components/Counter";
+import Todo from "./components/Todo";
 import UserInfo from "./components/UserInfo";
+import UserProfile from "./components/UserProfile";
 import { Admin, Info } from "./types";
 
 function App() {
@@ -28,8 +31,13 @@ function App() {
           disabled={false}
           onClick={handleClick}
         /> */}
-        <UserInfo user={user} />
-        <AdminInfo admin={admin} />
+        {/* <UserInfo user={user} />
+        <AdminInfo admin={admin} /> */}
+
+        {/* <Counter/> */}
+        {/* <UserProfile/> */}
+
+        <Todo/>
       </div>
     </>
   );
