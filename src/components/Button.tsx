@@ -1,11 +1,11 @@
 import { FC } from 'react'
 
-interface Button{
+interface ButtonProp{
     label:string;
     onClick:()=>void;
     disabled:boolean
 }
-const Button: FC<Button> = ({label, onClick, disabled}) => {
+const Button: FC<ButtonProp> = ({label, onClick, disabled}) => {
   return (
     <button onClick={onClick} disabled={disabled}>{label}</button>
   )
