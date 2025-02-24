@@ -1,6 +1,9 @@
 import AdminInfo from "./components/AdminInfo";
 import Button from "./components/Button";
 import Counter from "./components/Counter";
+import EventHandling from "./components/EventHandling";
+import FocusInput from "./components/FocusInput";
+import Form from "./components/Form";
 import Todo from "./components/Todo";
 import UserInfo from "./components/UserInfo";
 import UserProfile from "./components/UserProfile";
@@ -37,7 +40,10 @@ function App() {
         {/* <Counter/> */}
         {/* <UserProfile/> */}
 
-        <Todo/>
+        {/* <Todo/> */}
+{/* <Form/> */}
+{/* <FocusInput/> */}
+<EventHandling/>
       </div>
     </>
   );
